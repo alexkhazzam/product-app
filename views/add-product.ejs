@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homepage</title>
-    <link rel="stylesheet" href="/css/main.css" />
-  </head>
+  <%- include('./includes/head.ejs') %>
   <body>
     <header>
       <ul>
@@ -16,7 +11,10 @@
       </ul>
     </header>
     <main>
-      <h1>Homepage</h1>
+      <form action="/admin/add-product" method="POST">
+        <input type="text" placeholder="product" name="product" />
+        <button type="submit">Add Product</button>
+      </form>
     </main>
   </body>
 </html>

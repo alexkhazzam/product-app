@@ -54,3 +54,9 @@ button {
   border: none;
   border-radius: 8px;
 }
+
+.product {
+  max-width: 30%;
+  margin: auto;
+  word-wrap: break-word;
+}
