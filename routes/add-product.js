@@ -23,7 +23,7 @@ Router.post('/add-product', (req, res, next) => {
     console.log(parsedBody);
     fs.writeFile(
       path.join(__dirname, '../', 'data', 'product.json'),
-      JSON.stringify(parsedBody),
+      JSON.stringify(JSONObj),
       (err) => {
         if (err) {
           throw err;
