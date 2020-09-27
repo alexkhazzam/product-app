@@ -1,0 +1,26 @@
+{
+  "name": "product-app",
+  "version": "1.0.0",
+  "description": "add products application",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexkhazzam/product-app.git"
+  },
+  "author": "Alex Khazzam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexkhazzam/product-app/issues"
+  },
+  "homepage": "https://github.com/alexkhazzam/product-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
