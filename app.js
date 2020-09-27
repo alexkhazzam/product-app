@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
 
-bodyParser.urlencoded({ extended: false });
+bodyParser.urlencoded({ extended: false }); //app.use()
 const app = express();
 
 const homepageRoutes = require('./routes/homepage');
